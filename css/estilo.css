@@ -1,0 +1,383 @@
+body
+{
+	font-family: 'Baloo Paaji', cursive;
+	font-size: 14px;
+	line-height: 20px;
+	color: #333;
+	min-height: 100%;
+	background-color: #efefef;
+}
+.titulo-seccion
+{
+	font-size: 15px;
+	line-height: 22px;
+	font-weight: 800;
+	text-transform: uppercase;
+	position: relative;
+
+}
+.nombre
+{
+	font-size: 28px;
+	line-height: 25px;
+	text-transform: uppercase;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.profesion
+{
+	color: #777;
+	line-height: 30px;
+	font-size: 22px;
+	font-weight: 300;
+	text-transform: uppercase;
+	margin-top: 0px;
+}
+p
+{
+	font-size: 12px;
+	color: #777;
+	line-height: 22px;
+	font-weight: 300;
+}
+.titulo-lista
+{
+	color: #333;
+	font-size: 14px;
+	font-weight: 700;
+	text-align: center;
+	width: 35%;
+	padding-bottom: 8px;
+	padding-top: 8px;
+	background-color: #fff;
+	border-right: 1px solid #919191;
+}
+.valor-lista
+{
+	color: #666;
+	font-size: 14px;
+	text-align: center;
+	width: 63%;
+	padding-bottom: 8px;
+	padding-top: 8px;
+}
+section
+{
+	border-bottom: 5px solid #efefef;
+	padding: 40px 10px 2px 40px;
+}
+.sobre-mi, .estudios, .experiencia-laboral, .hobbies
+{
+	padding: 30px 40px;
+}
+.portfolio
+{
+	padding: 30px 40px;
+	margin-top: 5px;	
+}
+a
+{
+	text-decoration: none;
+}
+.texto-link
+{
+	font-style: 700;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 44px;
+	text-align: right;
+	text-transform: uppercase;
+	color: #85878b;
+	margin: 0px;
+	margin-right: 10px;
+}
+.item
+{
+	border-bottom: 5px solid #26292e;
+	padding: 0px;
+	height: 45px;
+}
+ul
+{
+	list-style: none;
+	padding-left: 0px;
+	margin: 0px;
+}
+.link:hover .texto-link
+{
+	color: white;
+}
+.contenedor
+{
+	max-width: 940px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 40px;
+}
+html
+{
+	height: 100%;
+	background-color: #7f001d;
+}
+* {
+
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+#c-derecha
+{
+	background-color: white;
+	width: 72%;
+	float: right;
+}
+#c-izquierda
+{
+	width: 26%;
+	float: left;
+}
+ul li div
+{
+	display: inline-block;
+}
+.music
+{
+	background-image: url("../images/guitar.jpg");
+	background-position: 0px 0px;
+	background-size: cover;
+	width: 100%;
+	min-height: 140px;
+}
+.componer
+{
+	background-image: url("../images/componer.jpg");
+	background-position: 0px 0px;
+	background-size: cover;
+	width: 100%;
+	min-height: 140px;
+}
+.investigar
+{
+	background-image: url("../images/investigar.jpg");
+	background-position: 0px 0px;
+	background-size: cover;
+	width: 100%;
+	min-height: 140px;
+}
+div.item-hobbies
+{
+	width: 31%;
+	margin-left: 1%;
+	margin-right: 1%;
+	float: left;
+}
+div.title
+{
+	text-decoration: underline;
+}
+.w-clearfix:before,
+.w-clearfix:after 
+{
+	content: "";
+	display: table;
+}
+.w-clearfix:after
+{
+	clear: both;
+}
+.link
+{
+	background-color: #4f4545;
+	display: inline-block;
+	width: 100%;
+}
+.link:hover 
+{
+	background: yellow;
+}
+.icono 
+{
+	width: 24px;
+	height: 24px;
+	float: left;
+	background-position: 0px 0px;
+	background-size: cover;
+	margin: 10px 20px;
+}
+.icono.imagen-sobre-mi 
+{
+	background-image: url("../images/sobre-mi.png");
+}
+
+.icono.imagen-estudios 
+{
+	background-image: url("../images/educacion.png");
+}
+
+.icono.imagen-experiencia-laboral 
+{
+	background-image: url("../images/experiencia-laboral.png");
+}
+
+.icono.imagen-hobbie 
+{
+	background-image: url("../images/hobbie.png");
+}
+.icono.imagen-portfolio
+{
+	background-image: url("../images/portfolio.png");
+}
+.link:hover .icono.imagen-sobre-mi 
+{
+	background-image: url("../images/sobre-mi-hover.png");
+}
+.link:hover .icono.imagen-estudios 
+{
+	background-image: url("../images/educacion-hover.png");
+}
+
+.link:hover .icono.imagen-experiencia-laboral 
+{
+	background-image: url("../images/experiencia-laboral-hover.png");
+}
+
+.link:hover .icono.imagen-hobbie 
+{
+	background-image: url("../images/hobbie-hover.png");
+}
+.link:hover .icono.imagen-portfolio
+{
+	background-image: url("../images/portfolio-hover.png");
+}
+.imagen-foto-mia
+{
+	width: 100%; 
+}
+.redes 
+{
+	display: block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 26%;
+	background-color: #ffffff;
+	text-align: center;
+}
+.red 
+{
+	width: 30px;
+	height: 30px;
+	margin-right: 4px;
+	margin-left: 4px;
+	float: left;
+	display: inline-block;
+}
+.red.facebook 
+{
+	background-image: url("../images/facebook.jpg");
+	background-size: cover;
+}
+.red.facebook:hover 
+{
+	background-image: url("../images/facebook-hover.png");
+}
+.red.twitter 
+{
+	background-image: url("../images/twitter.png");
+	background-size: cover;
+}
+.red.twitter:hover 
+{
+	background-image: url("../images/twitter-hover.png");
+}
+.red.instagram 
+{
+	background-image: url("../images/instagram.png");
+	background-size: cover;
+}
+.red.instagram:hover 
+{
+	background-image: url("../images/instagram-hover.png");
+}
+ul.datos
+{
+	width: 50%;
+	float: left;
+	border: 2px solid #D41E1E;
+	text-align: center;
+	margin-bottom: 20px;
+}
+ul.datos li
+{
+	border-bottom: 1px solid #9E9B9B;
+	background-color: #BABABA;
+}
+div.imagen-decoracion img
+{
+	width: 100%;
+}
+.imagen-decoracion
+{
+	position: absolute;
+	background-color: #fff;
+	width: 100px;
+	margin-top: 0px;
+	padding-right: 12px;
+	padding-bottom: 5px;
+}
+a button.back
+{
+	background-position: center center;
+	color: black;
+	background: white;
+	background-image: linear-gradient(top bottom, #3498db, #2980b9);
+}
+div.botones-cv
+{
+	margin-top: 5px;
+	float: center;
+	height: 40px;
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+}
+div.boton-reset
+{
+	float: center;
+	height: 40px;
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+}
+button#reset-game {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(top bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 100px;
+  text-shadow: 1px 1px 3px #666666;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 40px;
+  padding: 7px 10px 7px 10px;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  background-position: bottom;
+  display: inline-block;
+}
+button#reset-game:hover {
+  background: #215473;
+  background-image: -webkit-linear-gradient(top, #215473, #192933);
+  background-image: -moz-linear-gradient(top, #215473, #192933);
+  background-image: -ms-linear-gradient(top, #215473, #192933);
+  background-image: -o-linear-gradient(top, #215473, #192933);
+  background-image: linear-gradient(to bottom, #215473, #192933);
+  text-decoration: none;
+  cursor: pointer;
+  cursor: hand;
+}
